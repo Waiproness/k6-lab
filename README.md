@@ -41,6 +41,8 @@ Run tests one at a time. Never exceed 5 virtual users on QuickPizza. Average and
 
 ## Evidence
 
+Setup follow-up on 27 October 2026: installed k6 v2.2.0 with winget, cloned the published repository into a separate local `k6-lab` folder outside cloud drives, opened that checkout in VS Code, and verified its saved evidence and installed k6. The VS Code Git: Clone command was attempted, but its folder picker could not be controlled reliably, so the clone completed through Git directly. Original test work remains in its original combined commit; setup follow-ups are separate commits. The earlier test runs were not repeated or backdated.
+
 - `reports/*.log`: actual terminal summaries and diagnostics.
 - `reports/*.json`: actual aggregate metrics; `*.meta.json` records command, UTC timestamps and process exit code.
 - `reports/a2-average.html` through `a5-soak.html`: standalone time-series dashboards.
