@@ -1,0 +1,31 @@
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 222     10.451405/s
+    checks_succeeded...: 100.00% 222 out of 222
+    checks_failed......: 0.00%   0 out of 222
+
+    ✓ status is 200
+    ✓ no pepperoni
+    ✓ no knife needed
+
+    HTTP
+    http_req_duration..............: avg=369.24ms min=290.87ms med=355.21ms max=1.21s p(90)=401.29ms p(95)=406.92ms p(99)=631.39ms
+      { expected_response:true }...: avg=369.24ms min=290.87ms med=355.21ms max=1.21s p(90)=401.29ms p(95)=406.92ms p(99)=631.39ms
+    http_req_failed................: 0.00%  0 out of 74
+    http_reqs......................: 74     3.483802/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.41s    min=1.29s    med=1.36s    max=2.21s p(90)=1.4s     p(95)=1.96s    p(99)=2.11s   
+    iterations.....................: 74     3.483802/s
+    vus............................: 2      min=2       max=5
+    vus_max........................: 5      min=5       max=5
+
+    NETWORK
+    data_received..................: 104 kB 4.9 kB/s
+    data_sent......................: 19 kB  900 B/s
+
+
+
+

@@ -1,0 +1,31 @@
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 3       1.490553/s
+    checks_succeeded...: 100.00% 3 out of 3
+    checks_failed......: 0.00%   0 out of 3
+
+    ✓ status is 200
+    ✓ pizza has a name
+    ✓ every ingredient is vegetarian
+
+    HTTP
+    http_req_duration..............: avg=390.54ms min=390.54ms med=390.54ms max=390.54ms p(90)=390.54ms p(95)=390.54ms p(99)=390.54ms
+      { expected_response:true }...: avg=390.54ms min=390.54ms med=390.54ms max=390.54ms p(90)=390.54ms p(95)=390.54ms p(99)=390.54ms
+    http_req_failed................: 0.00%  0 out of 1
+    http_reqs......................: 1      0.496851/s
+
+    EXECUTION
+    iteration_duration.............: avg=2.01s    min=2.01s    med=2.01s    max=2.01s    p(90)=2.01s    p(95)=2.01s    p(99)=2.01s   
+    iterations.....................: 1      0.496851/s
+    vus............................: 1      min=1      max=1
+    vus_max........................: 1      min=1      max=1
+
+    NETWORK
+    data_received..................: 5.1 kB 2.5 kB/s
+    data_sent......................: 1.9 kB 935 B/s
+
+
+
+

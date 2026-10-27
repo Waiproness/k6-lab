@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-10-27T14:31:10.890156+00:00",
+  "ended_utc": "2026-10-27T14:31:41.669649+00:00",
+  "command": [
+    "run",
+    "--quiet",
+    "--summary-trend-stats=avg,min,med,max,p(90),p(95),p(99)",
+    "--summary-export",
+    "C:\\Users\\Wai\\Desktop\\Work\\QA\\K6_lab\\reports\\0-6-normal.json",
+    "06-thresholds.js"
+  ],
+  "exit_code": 0
+}

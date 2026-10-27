@@ -1,0 +1,29 @@
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 1       0.523521/s
+    checks_succeeded...: 100.00% 1 out of 1
+    checks_failed......: 0.00%   0 out of 1
+
+    ✓ request without a token is refused
+
+    HTTP
+    http_req_duration..............: avg=291.43ms min=291.43ms med=291.43ms max=291.43ms p(90)=291.43ms p(95)=291.43ms p(99)=291.43ms
+      { expected_response:true }...: avg=291.43ms min=291.43ms med=291.43ms max=291.43ms p(90)=291.43ms p(95)=291.43ms p(99)=291.43ms
+    http_req_failed................: 0.00%  0 out of 1
+    http_reqs......................: 1      0.523521/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.91s    min=1.91s    med=1.91s    max=1.91s    p(90)=1.91s    p(95)=1.91s    p(99)=1.91s   
+    iterations.....................: 1      0.523521/s
+    vus............................: 1      min=1      max=1
+    vus_max........................: 1      min=1      max=1
+
+    NETWORK
+    data_received..................: 4.5 kB 2.3 kB/s
+    data_sent......................: 1.9 kB 975 B/s
+
+
+
+

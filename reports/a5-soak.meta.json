@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-27T14:43:36.592903+00:00",
+  "ended_utc": "2026-10-27T14:54:40.449610+00:00",
+  "command": [
+    "run",
+    "--quiet",
+    "--summary-trend-stats=avg,min,med,max,p(90),p(95),p(99)",
+    "--summary-export",
+    "C:\\Users\\Wai\\Desktop\\Work\\QA\\K6_lab\\reports\\a5-soak.json",
+    "--out",
+    "web-dashboard=export=reports/a5-soak.html",
+    "--out",
+    "json=reports/a5-soak-series.jsonl",
+    "a5-soak.js"
+  ],
+  "exit_code": 0
+}

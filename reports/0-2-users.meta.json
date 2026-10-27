@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-27T14:30:39.694037+00:00",
+  "ended_utc": "2026-10-27T14:31:01.018753+00:00",
+  "command": [
+    "run",
+    "--quiet",
+    "--summary-trend-stats=avg,min,med,max,p(90),p(95),p(99)",
+    "--summary-export",
+    "C:\\Users\\Wai\\Desktop\\Work\\QA\\K6_lab\\reports\\0-2-users.json",
+    "--vus",
+    "5",
+    "--duration",
+    "20s",
+    "01-first-test.js"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,86 @@
+{
+  "a4-spike": [
+    {
+      "window": "baseline",
+      "start_s": 0,
+      "end_s": 30,
+      "requests": 15,
+      "p95_ms": 368.36030999999997,
+      "avg_ms": 315.6699066666667,
+      "max_ms": 383.765,
+      "failed_rate": 0.0
+    },
+    {
+      "window": "high load",
+      "start_s": 35,
+      "end_s": 65,
+      "requests": 78,
+      "p95_ms": 695.0668499999994,
+      "avg_ms": 357.98532435897437,
+      "max_ms": 1088.5845,
+      "failed_rate": 0.0
+    },
+    {
+      "window": "recovery 1",
+      "start_s": 70,
+      "end_s": 90,
+      "requests": 9,
+      "p95_ms": 393.57624,
+      "avg_ms": 319.31502222222224,
+      "max_ms": 412.699,
+      "failed_rate": 0.0
+    },
+    {
+      "window": "recovery 2",
+      "start_s": 90,
+      "end_s": 110,
+      "requests": 11,
+      "p95_ms": 347.43655,
+      "avg_ms": 307.7069818181818,
+      "max_ms": 353.6306,
+      "failed_rate": 0.0
+    },
+    {
+      "window": "recovery 3",
+      "start_s": 110,
+      "end_s": 130,
+      "requests": 9,
+      "p95_ms": 590.4343799999999,
+      "avg_ms": 360.0766888888889,
+      "max_ms": 717.4859,
+      "failed_rate": 0.0
+    }
+  ],
+  "a5-soak": [
+    {
+      "window": "early hold",
+      "start_s": 30,
+      "end_s": 150,
+      "requests": 115,
+      "p95_ms": 568.25349,
+      "avg_ms": 340.2516113043478,
+      "max_ms": 1088.747,
+      "failed_rate": 0.0
+    },
+    {
+      "window": "middle hold",
+      "start_s": 270,
+      "end_s": 390,
+      "requests": 119,
+      "p95_ms": 572.2973899999996,
+      "avg_ms": 334.60201596638655,
+      "max_ms": 1124.3064,
+      "failed_rate": 0.0
+    },
+    {
+      "window": "late hold",
+      "start_s": 510,
+      "end_s": 630,
+      "requests": 117,
+      "p95_ms": 626.1962,
+      "avg_ms": 347.2340435897436,
+      "max_ms": 1652.9527,
+      "failed_rate": 0.0
+    }
+  ]
+}

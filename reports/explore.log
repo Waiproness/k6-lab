@@ -1,0 +1,25 @@
+
+
+  █ TOTAL RESULTS 
+
+    HTTP
+    http_req_duration..............: avg=295.32ms min=292.16ms med=295.32ms max=298.49ms p(90)=297.86ms p(95)=298.17ms p(99)=298.42ms
+      { expected_response:true }...: avg=295.32ms min=292.16ms med=295.32ms max=298.49ms p(90)=297.86ms p(95)=298.17ms p(99)=298.42ms
+    http_req_failed................: 0.00%  0 out of 2
+    http_reqs......................: 2      1.65416/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.2s     min=1.2s     med=1.2s     max=1.2s     p(90)=1.2s     p(95)=1.2s     p(99)=1.2s    
+    iterations.....................: 1      0.82708/s
+    vus............................: 1      min=1      max=1
+    vus_max........................: 1      min=1      max=1
+
+    NETWORK
+    data_received..................: 7.2 kB 6.0 kB/s
+    data_sent......................: 2.1 kB 1.7 kB/s
+
+
+
+
+time="2026-10-27T21:33:36+07:00" level=info msg="{\"ingredients\":[{\"ID\":9,\"name\":\"Pepperoni\",\"caloriesPerSlice\":100,\"vegetarian\":false},{\"ID\":10,\"name\":\"Mushrooms\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":11,\"name\":\"Onions\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":12,\"name\":\"Sausage\",\"caloriesPerSlice\":200,\"vegetarian\":false},{\"ID\":13,\"name\":\"Bacon\",\"caloriesPerSlice\":250,\"vegetarian\":false},{\"ID\":14,\"name\":\"Extra cheese\",\"caloriesPerSlice\":100,\"vegetarian\":true},{\"ID\":15,\"name\":\"Black olives\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":16,\"name\":\"Green peppers\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":17,\"name\":\"Pineapple\",\"caloriesPerSlice\":75,\"vegetarian\":true},{\"ID\":18,\"name\":\"Spinach\",\"caloriesPerSlice\":25,\"vegetarian\":true},{\"ID\":19,\"name\":\"Garlic\",\"caloriesPerSlice\":25,\"vegetarian\":true},{\"ID\":20,\"name\":\"Jalapenos\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":21,\"name\":\"Roasted red peppers\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":22,\"name\":\"Feta cheese\",\"caloriesPerSlice\":100,\"vegetarian\":true},{\"ID\":23,\"name\":\"Prosciutto\",\"caloriesPerSlice\":100,\"vegetarian\":false},{\"ID\":24,\"name\":\"Ricotta cheese\",\"caloriesPerSlice\":100,\"vegetarian\":true},{\"ID\":25,\"name\":\"Salami\",\"caloriesPerSlice\":100,\"vegetarian\":false},{\"ID\":26,\"name\":\"Zucchini\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":27,\"name\":\"Buffalo mozzarella\",\"caloriesPerSlice\":150,\"vegetarian\":true},{\"ID\":28,\"name\":\"Eggplant\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":29,\"name\":\"Kalamata olives\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":30,\"name\":\"Parmesan cheese\",\"caloriesPerSlice\":100,\"vegetarian\":true},{\"ID\":31,\"name\":\"Shrimp\",\"caloriesPerSlice\":100,\"vegetarian\":false},{\"ID\":32,\"name\":\"Chicken\",\"caloriesPerSlice\":100,\"vegetarian\":false},{\"ID\":33,\"name\":\"Beef\",\"caloriesPerSlice\":100,\"vegetarian\":false},{\"ID\":34,\"name\":\"Ham\",\"caloriesPerSlice\":100,\"vegetarian\":false},{\"ID\":35,\"name\":\"Asparagus\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":36,\"name\":\"Broccoli\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":37,\"name\":\"Caramelized onions\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":38,\"name\":\"Cherry tomatoes\",\"caloriesPerSlice\":50,\"vegetarian\":true},{\"ID\":39,\"name\":\"Fresh basil\",\"caloriesPerSlice\":25,\"vegetarian\":true},{\"ID\":40,\"name\":\"Fresh oregano\",\"caloriesPerSlice\":25,\"vegetarian\":true}]}\n" source=console
+time="2026-10-27T21:33:36+07:00" level=info msg="{\"tools\":[\"Knife\",\"Pizza cutter\",\"Scissors\"]}\n" source=console
