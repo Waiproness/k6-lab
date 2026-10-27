@@ -4,10 +4,12 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import shutil
 from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parent.parent
-K6 = ROOT / '.tools/k6-v2.2.0-windows-amd64/k6.exe'
+PORTABLE_K6 = ROOT / '.tools/k6-v2.2.0-windows-amd64/k6.exe'
+K6 = PORTABLE_K6 if PORTABLE_K6.is_file() else (shutil.which('k6') or 'k6')
 REPORTS = ROOT / 'reports'
 
 def run(name, script, *args, html=False):

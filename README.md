@@ -8,7 +8,7 @@ This folder contains the lab scripts, actual run evidence and a draft Part B ref
 
 ## Run on Windows PowerShell
 
-The official portable k6 v2.2.0 binary is stored locally in `.tools/` and excluded from Git. On another machine, install k6 using the [official installation guide](https://grafana.com/docs/k6/latest/set-up/install-k6/).
+k6 v2.2.0 was installed on Windows using `winget install k6 --source winget --version 2.2.0`. A fresh shell can run `k6 version` through PATH. The original measurements used the same version as a portable binary stored locally in `.tools/` and excluded from Git. On another machine, install k6 using the [official installation guide](https://grafana.com/docs/k6/latest/set-up/install-k6/).
 
 ```powershell
 $k6 = 'k6' # For a globally installed k6
